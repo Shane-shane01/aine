@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Its for u,Laine</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 50px;
+            background: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHhza3VvaHUyOHk1ZGN0aTNiMndyZTBybjZxMGZucTA4M3U0OTZvZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/nR8frZBepl4VW/giphy.gif') center/cover no-repeat fixed;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            margin: auto;
+            max-width: 80%;
+            transition: all 0.5s ease;
+        }
+
+        h1 {
+            color: #d81b60;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        h1:hover {
+            color: #ff4081;
+        }
+
+        img {
+            width: 80%;
+            max-width: 400px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 15px 0px #d81b60;
+        }
+
+        img:hover {
+            box-shadow: 0px 0px 15px 0px #eb7da5;
+        }
+
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #ff4081;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0px 0px 15px 0px #d31259;
+        }
+
+        .button:hover {
+            background-color: #ca1557;
+        }
+        audio {
+            background-color: rgba(228, 83, 150, 0.8);
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" id="container">
+        <h1 id="valentine-text">Alam mo ba yung pinakamagandang baka?</h1>
+        
+        <img id="valentine-gif" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3huNm5xaHp0cDJ5cDVzamV6Y3lwYmY3a3dhNHhmN3NlcjBodm5lYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/CjrB9Mo0o4DNC/giphy.gif">
+        
+        <div class="button-container">
+            <button class="button" onclick="changeGifAndText()">???????</button>
+        </div>
+    <audio controls loop autoplay>
+        <source src="Cean Jr. - YK (Lyrics).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
+<script>
+    function changeGifAndText() {
+        var textElement = document.getElementById("valentine-text");
+        var gifElement = document.getElementById("valentine-gif");
+        
+
+        textElement.textContent = "Edi icow";
+        
+
+        gifElement.src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXFlMzB6MXJsdDZzZjY4b3BvcGM1eDRjMHlnOHY2eDJsNGpkMjQ0ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pxdQnq628XoA/giphy.gif";
+        
+    }
+</script>
+
+</body>
+</html>
